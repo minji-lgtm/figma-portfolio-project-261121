@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "GoogleSheets": {
+      "command": "node",
+      "args": ["C:/Users/EZEN/Documents/AIAGENT_MCP_PORTFOLIO/google-sheets-mcp/server (1).mjs"]
+    },
+    "GoogleForms": {
+      "command": "node",
+      "args": ["C:\\Users\\EZEN\\Documents\\AIAGENT_MCP_PORTFOLIO\\google-forms-mcp\\server (2).mjs"]
+    },
+    "Playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "Firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-0558d526f8f644538eaba65b94508134"
+      }
+    },
+    "slack": {
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "Notion": {
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "figma": {
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}
